@@ -5,5 +5,8 @@ imageio-ffmpeg==0.5.1
 matplotlib
 configargparse
 tensorboard>=2.0
+tensorflow
+lpips
+scikit-image
 tqdm
 opencv-python
