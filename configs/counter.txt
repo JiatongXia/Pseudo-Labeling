@@ -1,6 +1,6 @@
 expname = counter
 basedir = ./logs
-datadir = ./data/close_up_ood/counter
+datadir = ./data/close_up_pl/counter
 N_rand = 1024
 N_samples = 64
 N_importance = 64

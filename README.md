@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-We introduce a novel dataset **`close_up_pl`**, to evaluate the generation performance of close-up views that significantly different from those in the training data. You can download our dataset [here](https://drive.google.com/file/d/1tg5KrE6KnRtSG9i4guQ3C5xYbeu3UZJL/view?usp=drive_link).
+We introduce a novel dataset **`close_up_pl`**, to evaluate the generation performance of close-up views that significantly different from those in the training data. You can download our dataset [here](https://drive.google.com/file/d/1BVjpXTWBUAgEob0zpA9j9_a7Yxgw_N17/view?usp=drive_link).
 
 <p align="center">
   <img src="assets/benchmark.png"  width="800" />

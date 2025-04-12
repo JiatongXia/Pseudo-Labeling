@@ -1,6 +1,6 @@
 expname = table
 basedir = ./logs
-datadir = ./data/close_up_ood/table
+datadir = ./data/close_up_pl/table
 N_rand = 1024
 N_samples = 64
 N_importance = 64

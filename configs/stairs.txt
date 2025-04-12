@@ -1,6 +1,6 @@
 expname = stairs
 basedir = ./logs
-datadir = ./data/close_up_ood/stairs
+datadir = ./data/close_up_pl/stairs
 N_rand = 1024
 N_samples = 64
 N_importance = 64

@@ -1,6 +1,6 @@
 expname = room
 basedir = ./logs
-datadir = ./data/close_up_ood/room
+datadir = ./data/close_up_pl/room
 N_rand = 1024
 N_samples = 64
 N_importance = 64
