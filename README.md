@@ -9,7 +9,7 @@
 </p>
 
 
-This repo contains the official implementation for the paper "Enhancing Close-up Novel View Synthesis via Pseudo-labeling". We investigate novel view synthesis from viewpoints significantly different from those in the training data (known as Out-of-distribution (OOD) problem), particularly focus on diverse close-up perspectives. We introduce a pseudo-label-based learning strategy, significantly enhanced radiance fields in such situation.
+This repo contains the official implementation for the paper "Enhancing Close-up Novel View Synthesis via Pseudo-labeling". We investigate novel view synthesis from viewpoints significantly different from those in the training data, particularly focus on diverse close-up perspectives. We introduce a pseudo-label-based learning strategy, significantly enhanced radiance fields in such situation.
 
 
 </div>
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-We introduce a novel dataset **`close_up_ood`**, to evaluate the generation performance of out-of-distribution close-up views. You can download our dataset [here](https://drive.google.com/file/d/1tg5KrE6KnRtSG9i4guQ3C5xYbeu3UZJL/view?usp=drive_link).
+We introduce a novel dataset **`close_up_pl`**, to evaluate the generation performance of close-up views that significantly different from those in the training data. You can download our dataset [here](https://drive.google.com/file/d/1tg5KrE6KnRtSG9i4guQ3C5xYbeu3UZJL/view?usp=drive_link).
 
 <p align="center">
   <img src="assets/benchmark.png"  width="800" />
@@ -47,16 +47,16 @@ Our dataset is organized with the following directory structure:
 ```
 and contains these scenes: `counter` | `table` | `room` | `bench` | `stairs`.
 
-After download the `close_up_ood` dataset, unzip and place it into the `data` folder as follow:
+After download the `close_up_pl` dataset, unzip and place it into the `data` folder as follow:
 ```
 ├── configs  
 │   ├── ...    
 │                                                                                      
 ├── data 
-|   ├── close_up_ood
+|   ├── close_up_pl
 |   |   └── counter
 |   |   └── table
-|   |   └── room       # downloaded close_up_ood dataset
+|   |   └── room       # downloaded close_up_pl dataset
 |   |   └── bench
 |   |   └── stairs
 ```
